@@ -362,6 +362,22 @@ main {
     box-shadow: 0 0 10px 4px #a9e30b;
     opacity: 50%;
 }
+.contact-form-message {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-message:focus {
+    box-shadow: 0 0 10px 4px #a9e30b;
+    opacity: 50%;
+}
 textarea.contact-form-text {
     resize: none;
     height: 120px;
@@ -371,7 +387,7 @@ textarea.contact-form-text {
     border: 0;
     color: black;
     padding: 12px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
     margin-top: 10px;
@@ -426,6 +442,7 @@ textarea.contact-form-text {
     float: right;
     font-family: 'Firacode', sans-serif;
     font-weight: lighter;
+    font-size: 16px;
     color: #494952;
     letter-spacing: -1px;
     transition: 1s ease;

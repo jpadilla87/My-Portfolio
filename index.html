@@ -104,7 +104,9 @@
       <form class="contact-form" action="https://formsubmit.co/jpadillaforwork@gmail.com" method="post">
         <input type="text" class="contact-form-text" placeholder="Name" required>
         <input type="email" class="contact-form-text" placeholder="Email" required>
-        <textarea class="contact-form-text" placeholder="Message"></textarea>
+        <div class="form-group">
+          <textarea placeholder="Message" class="contact-form-message" name="message" rows="10" required></textarea>
+        </div>
         <input type="submit" class="contact-form-btn" value="Submit">
         <input type="hidden" name="_next" value="https://jorells-portfolio.vercel.app/pages/thankyou.html">
       </form>
