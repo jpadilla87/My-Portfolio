@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #222226;
+    color: white;
+}
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url(fonts/Gilroy-Bold);
+}
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Gilroy Bold', sans-serif;
+    font-size: 5em;
+}
