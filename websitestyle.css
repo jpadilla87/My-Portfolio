@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #222226;
-    background-size: cover;
+    background-size: 100vw 100vh;
     font-family: 'Gilroy Regular', sans-serif;
     color: white;
 }
