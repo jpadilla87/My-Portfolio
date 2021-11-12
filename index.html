@@ -17,6 +17,8 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <script src="https://kit.fontawesome.com/2fbbdda168.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
 
@@ -24,14 +26,17 @@
 
   <header id="home" class="container">
     <div class="navbar">
-      <a href="https://jorells-portfolio.vercel.app/"><img src="images/jplogostar.png" class="my-logo"></a>
+      <a href="https://jorells-portfolio.vercel.app/" class="my-logo"><img src="images/jplogostar.png" id="jstar-logo"></a>
       <nav>
-        <ul>
-          <li><a href="#home"><img src="images/home (1).png" class="house-logo">home</a></li>
+        <ul id="menu">
+          <li class="home"><a href="#home"><img src="images/home (1).png" class="house-logo">home</a></li>
           <li><a href="#about-me"><img src="images/user (2).png" class="user-logo">about me</a></li>
           <li><a href="#projects"><img src="images/project-plan.png" class="rocket-logo">projects</a></li>
-          <li><a href="#contact"><img src="images/email (2).png" class="mail-logo">contact</a></li>
+          <li class="contact"><a href="#contact"><img src="images/email (2).png" class="mail-logo">contact</a></li>
         </ul>
+        <label id="hamburger">
+          <i class="fas fa-bars"></i>
+        </label>
       </nav>
     </div>
   </header>
@@ -132,6 +137,7 @@
     </section>
 
   </main>
+<script src="hamburger.js"></script>
 </body>
 
 </html>
