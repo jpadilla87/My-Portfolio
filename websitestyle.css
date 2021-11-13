@@ -394,6 +394,11 @@ main {
     width: 101%;
     transition: width .5s;
 }
+.weather-project {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gilroy Bold', sans-serif ;
+}
 
 
 .contact-me {
