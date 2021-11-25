@@ -16,7 +16,10 @@
     width: 350px;
     text-align: left;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 18px;
+    letter-spacing: -1px;
     border-radius: 10px 10px 0px 0px;
     border: 3px solid white;
     border-bottom: none;
@@ -96,7 +99,10 @@
     width: 100%;
     border-radius: 10px;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 16px;
+    letter-spacing: -1px;
     color: #000;
     background-color: white;
     outline: none
@@ -104,7 +110,8 @@
 
 .userText {
     color: white;
-    font-family: Helvetica;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     font-weight: normal;
     text-align: right;
@@ -125,7 +132,7 @@
 
 .botText {
     color: #000;
-    font-family: Helvetica;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 16px;
     text-align: left;
@@ -139,6 +146,9 @@
     border-radius: 8px;
     border-bottom-left-radius: 2px;
     max-width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
     margin-left: 10px;
     animation: floatup .5s forwards
 }

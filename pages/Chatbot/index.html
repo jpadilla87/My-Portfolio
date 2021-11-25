@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,13 @@
     <link rel="stylesheet" href="css/chat.css">
     <link rel="stylesheet" href="css/home.css">
     <script src="https://kit.fontawesome.com/2fbbdda168.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- CHAT BAR BLOCK-->
     <div class="chat-bar-collapsible">
@@ -20,25 +26,27 @@
             <div class="full-chat-block">
                 <!-- Message Container-->
                 <div class="outer-container">
-                    <!-- Messages-->
-                    <div id="chatbox">
-                        <h5 id="chat-timestamp"></h5>
-                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
-                    </div>
-
-                    <!-- User input box-->
-                    <div class="chat-bar-input-block">
-                        <div id="userInput">
-                            <input id="textInput" class="input-box" type="text" name="msg"
-                            placeholder="Enter Blood Type for Information">
-                            <p></p>
+                    <div class="chat-container">
+                        <!-- Messages-->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
                         </div>
 
-                        <div class="chat-bar-icons">
-                            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                            onclick="heartbutton()"></i>
-                            <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
-                            onclick="sendButton()"></i>    
+                        <!-- User input box-->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Enter Blood Type for Information">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartbutton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
                         </div>
                     </div>
                     <div id="chat-bar-bottom">
@@ -49,9 +57,10 @@
         </div>
 
     </div>
-    
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="scripts/chat.js"></script>
 <script src="scripts/responses.js"></script>
+
 </html>
