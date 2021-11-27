@@ -121,7 +121,7 @@
 .userText span {
     line-height: 1.5em;
     display: inline-block;
-    background: #5ca6fa;
+    background: rgb(255, 14, 66);
     padding: 10px;
     border-radius: 8px;
     border-bottom-right-radius: 2px;
