@@ -1,5 +1,5 @@
 function getBotResponse(input) {
-    if (input == "O-" || "o-" || "o -" || "O -") {
+    if (input == 'O-' || "o-" || "o -" || "O -") {
         return "O negative blood type (O-) can be donated universally across all other blood types, however it can only receive O- blood.";
     } else if (input == "O+" || "o+" || "o +" || "O +") {
         return "O positive blood type (O+) can be donated to any red blood cells that are positive (A+, B+, O+, & AB+), however it can only receive O- blood & O+ blood.";
@@ -22,10 +22,8 @@ function getBotResponse(input) {
     } else if(input == "goodbye" || "bye" || "good bye") {
         return "Talk to you later!";
     } else if(input == "Thank you!") {
-        return "You're welcome!"
-    } 
-    
-    else {
+        return "You're Welcome!"
+    } else {
         return "Try asking something else!";
     }
 }
