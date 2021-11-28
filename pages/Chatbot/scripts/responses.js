@@ -22,7 +22,7 @@ function getBotResponse(input) {
     } else if(input == "goodbye" || input == "bye" || input == "good bye") {
         return "Talk to you later!";
     } else if(input == "Thank you!") {
-        return "You're Welcome!"
+        return "You're Welcome!";
     } else {
         return "Try asking something else!";
     }
