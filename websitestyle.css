@@ -252,7 +252,6 @@ nav #hamburger {
 }
 .box {
     text-align: center;
-    margin-top: 40px;
 }
 .socials {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(184deg) brightness(103%) contrast(103%);
