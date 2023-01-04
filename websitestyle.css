@@ -268,11 +268,10 @@ nav #hamburger {
     -ms-transform: scale(1.2);
     filter: invert(87%) sepia(54%) saturate(3283%) hue-rotate(16deg) brightness(88%) contrast(103%);
 }
-.behance-logo {
+.dribbble-logo {
     width: auto;
-    height: 50px;
+    height: 43px;
     position: relative;
-    top: 5px;
 }
 
 
@@ -399,7 +398,7 @@ nav #hamburger {
     width: 101%;
     transition: width .5s;
 }
-.weather-project {
+.project-links {
     color: white;
     text-decoration: none;
     font-family: 'Gilroy Bold', sans-serif ;
@@ -513,11 +512,11 @@ textarea.contact-form-text {
     margin-left: 20px;
     margin-right: 20px;
 }
-.bottom-bar-behance {
-    width: 35px;
+.bottom-bar-dribbble {
+    width: 25px;
     height: auto;
     position: relative;
-    top: 8.1px;
+    /* top: 8.1px; */
     margin-left: 20px;
     margin-right: 20px;
 }
