@@ -230,6 +230,7 @@ nav #hamburger {
     color: white;
     letter-spacing: 1.5px;
     text-align: center;
+    margin-bottom: .4em;
 }
 .occupation {
     font-family:'Firacode', sans-serif;
